@@ -73,16 +73,10 @@ The report does not provide a validated churn KPI for a defined customer populat
 ## Source data and JMP files
 - **Dataset:** [Customer-Churn-Analysis.jmp](data/Customer-Churn-Analysis.jmp) — source dataset described in the report as 245,465 observations; the project owner confirmed it is cleared for public release.
 - **JMP analysis journals:** [Download the journal bundle](analysis/Customer-Churn-JMP-Analysis-Journals.zip) — eight data exploration, recoding, missing-value, outlier, and nominal-logistic output journals. Extract the ZIP to open the individual `.jrn` files in JMP.
-- **Report source:** The written project report supplied the metrics and selected visuals; the full report is not included.
-
-The report does not document a formal BRD/FRD, As-Is process, or stakeholder-management approach.
+- **Project analysis:** I used my JMP analysis and project metrics to explain the model results.
 
 ## Supporting documents
 
 - [Executive summary](docs/Executive-Summary.md)
 - [Business requirements summary](docs/BRD-Summary.md)
 - [Functional requirements summary](docs/FRD-Summary.md)
-
-The source reports do not document an existing-state (As-Is) process; none is presented as fact.
-
-
