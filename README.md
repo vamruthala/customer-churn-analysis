@@ -20,8 +20,6 @@ flowchart LR
 
 ## Business KPIs
 
-The report does not provide a validated churn KPI for a defined customer population and time period. Do not treat the saved model sample as the business-wide churn rate.
-
 | KPI | Formula | Value / status | Interpretation |
 |---|---|---|---|
 | Churn rate | `Customers churned during period ÷ eligible customers at period start × 100` | Not established | Requires a defined period, eligible population, and reconciled source count. |
@@ -57,23 +55,23 @@ The report does not provide a validated churn KPI for a defined customer populat
 
 ## Model evidence from the report
 
-![Training confusion matrix](assets/training-confusion-matrix.png)
+![Training confusion matrix](data_visualization_and_analysis/training-confusion-matrix.png)
 
 <details>
 <summary>Model significance, fit, and odds-ratio outputs</summary>
 
-![Whole-model test](assets/whole-model-test.png)
+![Whole-model test](data_visualization_and_analysis/whole-model-test.png)
 
-![Lack-of-fit test](assets/lack-of-fit-test.png)
+![Lack-of-fit test](data_visualization_and_analysis/lack-of-fit-test.png)
 
-![Odds ratios](assets/odds-ratios.png)
+![Odds ratios](data_visualization_and_analysis/odds-ratios.png)
 
 </details>
 
 ## Source data and JMP files
-- **Dataset:** [Customer-Churn-Analysis.jmp](data/Customer-Churn-Analysis.jmp) — source dataset described in the report as 245,465 observations; the project owner confirmed it is cleared for public release.
+- **Dataset:** [Customer-Churn-Analysis.jmp](data/Customer-Churn-Analysis.jmp) — source dataset described in the report as 245,465 observations.
 - **JMP analysis journals:** [Download the journal bundle](analysis/Customer-Churn-JMP-Analysis-Journals.zip) — eight data exploration, recoding, missing-value, outlier, and nominal-logistic output journals. Extract the ZIP to open the individual `.jrn` files in JMP.
-- **Project analysis:** I used my JMP analysis and project metrics to explain the model results.
+- **Project analysis:** The analysis used my JMP analysis and project metrics to explain the model results.
 
 ## Supporting documents
 
