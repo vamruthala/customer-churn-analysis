@@ -75,3 +75,13 @@ The report does not provide a validated churn KPI for a defined customer populat
 - Proposed repo tree: `README.md`, `assets/` (selected model-output visuals), `analysis/` (metric/model notes), `data/` (approved aggregates only unless raw data is cleared).
 
 Keep row-level customer and financial data private unless specifically cleared for public release. The report does not document a formal BRD/FRD, As-Is process, or stakeholder-management approach.
+
+## Supporting documents
+
+- [Executive summary](docs/Executive-Summary.md)
+- [Business requirements summary](docs/BRD-Summary.md)
+- [Functional requirements summary](docs/FRD-Summary.md)
+
+The source reports do not document an existing-state (As-Is) process; none is presented as fact.
+
+
