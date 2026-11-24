@@ -70,11 +70,12 @@ The report does not provide a validated churn KPI for a defined customer populat
 
 </details>
 
-## Evidence and proposed structure
-- Local archive: `Customer Churn.zip`; report: `Final Assignment - Vaishnavi Amruthala.docx`.
-- Proposed repo tree: `README.md`, `assets/` (selected model-output visuals), `analysis/` (metric/model notes), `data/` (approved aggregates only unless raw data is cleared).
+## Source data and JMP files
+- **Dataset:** [Customer-Churn-Analysis.jmp](data/Customer-Churn-Analysis.jmp) — source dataset described in the report as 245,465 observations; the project owner confirmed it is cleared for public release.
+- **JMP analysis journals:** [Download the journal bundle](analysis/Customer-Churn-JMP-Analysis-Journals.zip) — eight data exploration, recoding, missing-value, outlier, and nominal-logistic output journals. Extract the ZIP to open the individual `.jrn` files in JMP.
+- **Report source:** The written project report supplied the metrics and selected visuals; the full report is not included.
 
-Keep row-level customer and financial data private unless specifically cleared for public release. The report does not document a formal BRD/FRD, As-Is process, or stakeholder-management approach.
+The report does not document a formal BRD/FRD, As-Is process, or stakeholder-management approach.
 
 ## Supporting documents
 
